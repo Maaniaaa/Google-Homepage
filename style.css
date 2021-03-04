@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header{
+    height: 40px;
+    }
+ul{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+li img{
+    height: 32px;
+}
+
+#profile{
+    border-radius: 50%;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header a:active{
+    color: black;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.container img{
+}
